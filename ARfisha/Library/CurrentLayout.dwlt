@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 12
+  controlID: 55
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 13
+  controlID: 56
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 14
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,7 +297,7 @@ MonoBehaviour:
     x: 253
     y: 73
     width: 1267
-    height: 576
+    height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Coursera/VuforiaLesson
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Coursera/VuforiaLesson
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Labs\10term\Augmented reality\Lab4\Project\ARfisha
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 5a280000
-    m_LastClickedID: 10330
-    m_ExpandedIDs: 000000005a28000060280000062900006029000076290000802900008a290000aa290000102a0000122a00003c2a0000b62a0000f42a0000042b0000462b0000762b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: bc290000
+    m_LastClickedID: 10684
+    m_ExpandedIDs: 00000000662800006c28000018290000742900008a290000942900009c290000bc290000262a0000282a0000542a0000ce2a00000c2b00001e2b0000642b0000982b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000005a28000060280000062900006029000076290000802900008a290000aa290000122a00003c2a0000b62a0000f42a0000042b0000462b0000762b0000
+    m_ExpandedIDs: 00000000662800006c28000018290000742900008a290000942900009c290000bc290000262a0000282a0000542a0000ce2a00000c2b00001e2b0000642b0000982b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,21 +499,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8801ffffaa01ffffb201ffff9a03ffffbc03ffffc403ffff0a19ffff0c19ffff1219ffff1619ffff1c2dffff1e2dffff242dffff262dffffbc43ffff2862ffff4a62ffff8064ffff408fffff0893ffffd2bafffff4e2ffffdefbffffd62b0000ee2b0000fe2d00002e2e00005a2e00007a350000103600005e360000
+      m_ExpandedIDs: 08cdfeff2acdfeff3ecdfeff62cdfeff24cefeff46cefeff5acefeff7ecefeff88d3feff8adafeffacdafeffc0dafeffe4dafeff18ecfeff00f4feff8601ffffa801ffffbc01ffffe001ffff3804ffff5a04ffff6e04ffff9204ffffe406ffff0607ffff1a07ffff3e07ffff0e08ffff3008ffff4408ffff6808ffff3a11ffff5c11ffff6e11ffff9211ffffba14ffffdc14ffffee14ffff1215ffff6a1effff8c1effff9e1effffc21effff7828ffff7a28ffff5e3fffff803fffff903fffffb43fffff2641ffff4841ffff7843ffff9c43ffff544fffff5a4fffff604fffff5451ffff7651ffff8651ffffaa51ffff6654ffff8854ffff9854ffffbc54ffff9257ffff9457ffff6e58ffff9058ffffc65affffea5affffdc5bfffffe5bffff0c5cffff305cfffff05effff125fffff4261ffff6661ffffe662ffff0863ffff3865ffff5c65ffffe266ffff0467ffff1267ffff4267ffff666bffff6c6bffff726bfffff46dfffffc6fffffb871ffffda71ffff1074ffff3474ffffb675ffff4a78ffff6c78ffff7878ffff9c78ffff847affffa67affffc87affff747dffff967dffffe07fffff0482ffff5683ffffa685ffff9c89ffffbe89ffffdc89ffff948effffb68effffd48effff6a90ffff8c90ffffaa90ffff26b4ffff48b4ffff82b6ffff28b8ffff4ab8ffff84bafffff6bcffff18bdffff2cbdffff8cc0ffffaec0ffffc2c0ffff48c1ffff6ac1ffff7ec1ffff0ac2ffff2cc2ffff66c4ffff94ceffffb6ceffffcaceffff98d2ffff60d8ffffc0d8ffffc2d8ffff1adaffff8ee1ffffb0e1ffffe2e3ffff92e8ffffb4e8ffffbce8ffff6cebffff8eebffffc0edffff34f0ffff56f0ffff88f2ffff94f5ffffb6f5ffffbef5ffff0cf6ffff30f6ffff62f8ffffcefbffffc22b0000a62c0000f42c000054340000ea34000038350000383a0000863a0000ca3e00003e3f0000b03f0000fe3f0000444300006c430000b843000006440000da4700001e4800003248000056480000684800007e480000ca480000fa480000044900001849000024490000764c0000d04c0000f84c0000124d0000424d00004c4d0000a44d0000ca4d0000d64d0000fa4d00000e4e0000385e0000bc5e0000045f0000665f00008c5f00009a5f0000d25f0000886300000e640000b8640000de640000ec6400002465000030650000b26a00005c6b0000c86b0000647100007a7100008e71000098710000a2710000bc710000ea710000fe710000247200002e72000042720000687200007e720000887200009a720000a4720000ba720000ec7600008c770000f8770000e27b0000007c0000147c0000287c0000327c00003c7c0000707c00007a7c0000aa7c0000c87c0000fc7c0000067d0000187d0000347d000016810000f481000060820000ba870000fa8800001c930000ea9a0000069b000076a100007aa1000094a100009ea10000a8a1000042a8000046a8000060a800006aa800004aaf00004eaf00005caf000068af000072af000040bc000094bd00000abe0000acc200008acd0000e6ce000024d700003ad700005ad7000074de00007ede00008ade0000aade0000b4de00001ae0000040e000004ee0000090e000001ae6000024e6000030e6000068e6000072e60000d8e700004ee80000e2ed0000f8ed000030ee00003aee0000aaf50000c0f50000caf50000f8f5000002f6000044fe000084fe00000a0701002007010046070100600701006a070100a8070100ca180100f01801000419010018190100221901002c190100581901008e190100ac190100e8190100f2190100221a0100fa20010032210100502101007c210100c6210100ec210100fa210100282201003c220100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: RottenTomatoLogo
+        m_OriginalName: RottenTomatoLogo
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -70628
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -555,9 +555,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.009631634, y: -0.36120605, z: 0.0002593994}
+    m_Target: {x: 0.047992032, y: -0.12438965, z: -0.0020714183}
     speed: 2
-    m_Value: {x: -0.009631634, y: -0.36120605, z: 0.0002593994}
+    m_Value: {x: 0.047992032, y: -0.12438965, z: -0.0020714183}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 0.18931983
+    m_Target: 0.18267263
     speed: 2
-    m_Value: 0.18931983
+    m_Value: 0.18267263
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -627,7 +627,7 @@ MonoBehaviour:
     x: 253
     y: 73
     width: 1267
-    height: 576
+    height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -641,8 +641,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -633.5
     m_HBaseRangeMax: 633.5
-    m_VBaseRangeMin: -279.5
-    m_VBaseRangeMax: 279.5
+    m_VBaseRangeMin: -318
+    m_VBaseRangeMax: 318
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -661,9 +661,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 1267
-      height: 559
+      height: 636
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 633.5, y: 279.5}
+    m_Translation: {x: 633.5, y: 318}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -671,14 +671,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -633.5
-      y: -279.5
+      y: -318
       width: 1267
-      height: 559
+      height: 636
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1267, y: 576}
+  m_LastWindowPixelSize: {x: 1267, y: 653}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
